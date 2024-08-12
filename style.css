@@ -1,0 +1,102 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+
+.div_name_links {
+  padding: 25px 50px;
+  background-color: gainsboro;
+}
+
+.div_name_links .div_name .name {
+  font-size: 30px;
+  font-weight: 300;
+}
+.div_name_links .div_name {
+  display: inline-block;
+}
+.div_name_links .div_links {
+  display: inline-block;
+}
+.div_name_links .div_links .common_div_links {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.div_name_links .div_links .common_div_links li:hover {
+  background-color: chocolate;
+}
+.div_name_links .div_links .common_div_links li a:hover {
+  color: white;
+}
+.div_name_links .div_links .links li {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0px 12.5px;
+  background-color: aqua;
+}
+.div_name_links .div_links .links li a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 600px;
+  height: 500px;
+  object-fit: cover;
+}
+img:hover {
+  opacity: 0.9;
+}
+.div_examples {
+  margin-top: -10px;
+}
+.div_examples h2 {
+  font-weight: 300;
+}
+
+.div_images_examples {
+  display: inline-block;
+}
+
+.div_images_examples_1_2 {
+  margin: 25px 50px;
+}
+.div_images_examples_3_4 {
+  margin: 25px 50px;
+}
+.div_images_examples_5_6 {
+  margin: 25px 50px;
+}
+.div_image_example_2,
+.div_image_example_4,
+.div_image_example_6 {
+  margin-left: 30px;
+}
+
+.why {
+  width: 700px;
+  margin-left: 250px;
+  margin-top: 100px;
+}
+.why h3 {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 25px;
+}
+.message h4 {
+  color: red;
+  font-weight: 200;
+  font-size: 50px;
+  font-style: italic;
+  border-bottom: 1px solid black;
+  width: 543px;
+  margin-left: 250px;
+}
+
+.contact p {
+  font-weight: 500;
+  margin-left: 250px;
+  margin-top: 0px;
+  margin-bottom: 0px; 
+}
